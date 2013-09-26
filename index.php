@@ -34,9 +34,9 @@ get_header();
 				<?php endif; ?>
 
 				<div class="entry-content">
-					<a href="<?php echo the_permalink() ?>">
-						<?php echo am_get_content(140) ?>
-					</a>
+					<p>
+						<a href="<?php echo the_permalink() ?>"><?php echo am_get_content(140) ?></a>
+					</p>
 				</div>
 
 			</article><!-- #post-## -->

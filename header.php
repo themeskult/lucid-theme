@@ -21,11 +21,9 @@
 <?php endif ?>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_directory');?>/img/favicon.ico">
 
 <?php wp_head(); ?>
-
-<script type="text/javascript" src="//use.typekit.net/iop0sab.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 </head>
 

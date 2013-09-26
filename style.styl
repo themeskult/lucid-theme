@@ -1,8 +1,8 @@
 /*
 Theme Name: Lucid
 Theme URI: http://gravityonmars.com/  
-Description: Gravity On Mars Theme
-Author: Ricardo Rauch (@themeskult)
+Description: Lucid Theme
+Author: Themes Kult (@themeskult)
 Version: v0.0.16
 */
 
@@ -784,10 +784,7 @@ body
 	color: #4d4d4d;
 	-webkit-font-smoothing: antialiased;
 	// line-height: 190%; 
-
-article 
-	font-family: "ff-tisa-web-pro",serif !important;
-
+	font-family: Helvetica;
 
 h1,h2,h3,h4,h5
 	font-weight: bold;
@@ -898,6 +895,11 @@ header.site-header
 	top: 0;
 	text-align: center;
 
+	.site-title
+		a 
+			color: white;
+			font-size: 20px;
+
 	.site-branding
 		img 
 			width: auto;
@@ -939,15 +941,16 @@ header.site-header
 	.copyright
 		text-transform: uppercase;
 		color: white;
-		position: absolute;
+		position: fixed;
 		bottom: 0;
+		width: 266px;
 		font-family: menlo;
 		font-size: 11px;
 		color: rgba(255,255,255,.2);
 		right: 0;
 		left: 0;
 		background: rgba(0,0,0,.2);
-		padding: 6px 10px;
+		padding: 6px 0;
 		a 
 			color: rgba(255,255,255,.2);
 			font-weight: normal;
@@ -1044,10 +1047,6 @@ body.home, body.page
 body.home
 	overflow-y: hidden;
 
-	.entry-content 
-		a 
-			font-weight: normal
-			color: #4d4d4d;
 	.main-post
 		text-align: center;
 		width: 50%;
@@ -1077,7 +1076,9 @@ body.home
 
 		.entry-content
 			margin-top: 0;
-
+			a 
+				font-weight: normal
+				color: #4d4d4d;
 
 		footer 
 			display: none
@@ -1154,6 +1155,9 @@ article.post, article.page
 			margin-bottom: 10px;
 			list-style: square;
 
+article 
+	p, li
+		line-height: 30px;
 
 /* Single
 ----------------------------------------------- */

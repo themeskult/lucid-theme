@@ -1,8 +1,8 @@
 /*
 Theme Name: Lucid
 Theme URI: http://gravityonmars.com/  
-Description: Gravity On Mars Theme
-Author: Ricardo Rauch (@themeskult)
+Description: Lucid Theme
+Author: Themes Kult (@themeskult)
 Version: v0.0.16
 */
 /* =Reset
@@ -638,9 +638,7 @@ object {
 body {
   color: #4d4d4d;
   -webkit-font-smoothing: antialiased;
-}
-article {
-  font-family: "ff-tisa-web-pro", serif !important;
+  font-family: Helvetica;
 }
 h1,
 h2,
@@ -759,6 +757,10 @@ header.site-header {
   top: 0;
   text-align: center;
 }
+header.site-header .site-title a {
+  color: #fff;
+  font-size: 20px;
+}
 header.site-header .site-branding img {
   width: auto;
   border-radius: 100px;
@@ -801,15 +803,16 @@ header.site-header nav.main-navigation ul li a:hover {
 header.site-header .copyright {
   text-transform: uppercase;
   color: #fff;
-  position: absolute;
+  position: fixed;
   bottom: 0;
+  width: 266px;
   font-family: menlo;
   font-size: 11px;
   color: rgba(255,255,255,0.2);
   right: 0;
   left: 0;
   background: rgba(0,0,0,0.2);
-  padding: 6px 10px;
+  padding: 6px 0;
 }
 header.site-header .copyright a {
   color: rgba(255,255,255,0.2);
@@ -916,10 +919,6 @@ body.page .snap-content header.site-header-2 {
 body.home {
   overflow-y: hidden;
 }
-body.home .entry-content a {
-  font-weight: normal;
-  color: #4d4d4d;
-}
 body.home .main-post {
   text-align: center;
   width: 50%;
@@ -950,6 +949,10 @@ body.home .main-post img.attachment-featured-post {
 }
 body.home .main-post .entry-content {
   margin-top: 0;
+}
+body.home .main-post .entry-content a {
+  font-weight: normal;
+  color: #4d4d4d;
 }
 body.home .main-post footer {
   display: none;
@@ -1051,6 +1054,10 @@ article.post ol li,
 article.page ol li {
   margin-bottom: 10px;
   list-style: square;
+}
+article p,
+article li {
+  line-height: 30px;
 }
 /* Single
 ----------------------------------------------- */
