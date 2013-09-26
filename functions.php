@@ -215,4 +215,4 @@ require get_template_directory() . '/inc/customizer.php';
 require get_template_directory() . '/inc/jetpack.php';
 
 
-include_once('inc/Theme-Updater/updater.php');
+require get_template_directory() . '/inc/Theme-Updater/updater.php';
